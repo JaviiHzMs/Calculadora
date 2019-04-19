@@ -1,14 +1,38 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(0, 0, 255);
+    background: black;
     margin: 0;
     color: white;
 }
 .calculadora{
-    background: #333333; 
+    background: #333333;
+    width: 200px;
+margin: 0 auto;
+text-align: right 
+
+    
 }
 .resultado{
     background: rgb(55, 55, 59);
-    font-size: 24px;
-}    
+    font-size: 30px;
+    padding: 10px;
+} 
+.fila{
+    display: flex;
+}
+button{
+    background: rgb(103, 103, 106);
+    width: 25%;
+    margin:0 ;
+    color: white;
+    height: 40px;
+    border: 1px solid rgb(55, 54, 58);
+
+}   
+.acciones{
+    background: rgb(242, 162, 59)
+}
+.cero{
+    width: 50%;
+}
