@@ -7,15 +7,13 @@ body{
 }
 .calculadora{
     background: #333333;
-    width: 200px;
-margin: 0 auto;
-text-align: right 
-
-    
+    max-width: 400px;    
+    margin: 0 auto;
+    text-align: right;    
 }
 .resultado{
     background: rgb(55, 55, 59);
-    font-size: 30px;
+    font-size: 40px;
     padding: 10px;
 } 
 .fila{
@@ -26,9 +24,9 @@ button{
     width: 25%;
     margin:0 ;
     color: white;
-    height: 40px;
+    height: 60px;
     border: 1px solid rgb(55, 54, 58);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
 
 }   
