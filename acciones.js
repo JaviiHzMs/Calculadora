@@ -23,7 +23,7 @@ function calcularResultado (){
 
 }
 function porcentaje() {
-    resultado= resultado/100 +''
+    resultado=eval (resultado)/100 +''
     console.log(resultado)
     document.getElementById("resultado").textContent=resultado;
     
