@@ -1,14 +1,14 @@
-.encabezado{
-    background: red;
-}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(0, 0, 255);
     margin: 0;
+    color: white;
 }
-h1{
-    margin: 0;
+.calculadora{
+    background: #333333; 
 }
-.contenido{
-    background: blue
-}
+.resultado{
+    background: rgb(55, 55, 59);
+    font-size: 24px;
+}    
