@@ -7,7 +7,7 @@ body{
 }
 .calculadora{
     background: #333333;
-    max-width: 400px;    
+    max-width: 360px;    
     margin: 0 auto;
     text-align: right;    
 }
@@ -24,7 +24,7 @@ button{
     width: 25%;
     margin:0 ;
     color: white;
-    height: 60px;
+    height: 65px;
     border: 1px solid rgb(55, 54, 58);
     font-size: 24px;
     font-weight: 400;
