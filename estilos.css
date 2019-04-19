@@ -1,0 +1,14 @@
+.encabezado{
+    background: red;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(0, 0, 255);
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+.contenido{
+    background: blue
+}
