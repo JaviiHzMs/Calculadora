@@ -13,7 +13,7 @@ body{
 .calculadora{
     background: #333333;
     max-width: 360px;
-    min-width: 300px;    
+    min-width: 360px;    
     margin: 0 auto;
     text-align: right;    
 }
@@ -21,6 +21,8 @@ body{
     background: rgb(55, 55, 59);
     font-size: 40px;
     padding: 10px;
+    height: 65px;
+    overflow: hidden;
 } 
 .fila{
     display: flex;

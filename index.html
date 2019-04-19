@@ -6,47 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
+    <script src="acciones.js"></script>
+    
 </head>
 <body>
 <div class="calculadora">
-    <div class="resultado">
-        123
+    <div class="resultado" id="resultado">
+  
     </div>
     <div class="botones">
         <div class="fila ">
-            <button>C</button>
-            <button>+/-</button>
-            <button>%</button>
-            <button class="acciones">&divide;</button>
+            <button onclick="borrar()">C</button>
+            <button onclick="masmenos()">+/-</button>
+            <button onclick="porcentaje()">%</button>
+            <button onclick="clickEnBoton('/')" class="acciones">&divide;</button>
         </div>
         <div class="fila">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="acciones">&times;</button>
-
-        </div>
-        <div class="fila">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="acciones">-</button>
-
+            <button onclick="clickEnBoton(7)">7</button>
+            <button onclick="clickEnBoton(8)">8</button>
+            <button onclick="clickEnBoton(9)">9</button>
+            <button onclick="clickEnBoton('*')" class="acciones">&times;</button>
 
         </div>
         <div class="fila">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="acciones">+</button>
+            <button onclick="clickEnBoton(4)">4</button>
+            <button onclick="clickEnBoton(5)">5</button>
+            <button onclick="clickEnBoton(6)">6</button>
+            <button onclick="clickEnBoton('-')" class="acciones">-</button>
+
 
         </div>
         <div class="fila">
-            <button class="cero">0</button>
-            <button>.</button>
-            <button class="acciones">=</button>
+            <button onclick="clickEnBoton(1)">1</button>
+            <button onclick="clickEnBoton(2)">2</button>
+            <button onclick="clickEnBoton(3)">3</button>
+            <button onclick="clickEnBoton('+')" class="acciones">+</button>
 
         </div>
+        <div class="fila">
+            <button onclick="clickEnBoton(0)" class="cero">0</button>
+            <button onclick="clickEnBoton('.')">.</button>
+            <button onclick="calcularResultado()" class="acciones">=</button>
+
+        </div>
+
 
     </div>
 </div>
