@@ -1,13 +1,19 @@
 
+html{height: 100%;}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
     margin: 0;
     color: white;
+    background-image: url(https://images.unsplash.com/photo-1506508618093-6fe5ce3def4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80)
 }
 .calculadora{
     background: #333333;
-    max-width: 360px;    
+    max-width: 360px;
+    min-width: 300px;    
     margin: 0 auto;
     text-align: right;    
 }
